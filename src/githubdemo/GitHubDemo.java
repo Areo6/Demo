@@ -29,7 +29,7 @@ public class GitHubDemo extends Application {
         );
         
         StackPane root = new StackPane();
-        root.getChildren().add(btn);
+        root.getChildren().addAll(hallo,btn);
         
         Scene scene = new Scene(root, 300, 250);
         
